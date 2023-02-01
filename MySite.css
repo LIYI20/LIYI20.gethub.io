@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+audio {
+    display: none;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+
+
+}
+
+/* body {
+    background-image: url(image/97589071_p18_master1200.jpg);
+    background-size: 1423px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+
+.title {
+    background-color: pink;
+    height: 50px;
+    background-image: url(image/logoko.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: left center;
+}
+
+
+.title .word {
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: right;
+    text-indent: 80px;
+}
+
+.photo {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1423px;
+    text-align: center;
+    padding: 1px;
+}
+
+.photo1 {
+    background-image: url(image/79690646_p0_master1200.jpg);
+}
+
+.photo2 {
+    background-image: url(image/屏幕截图\ 2022-11-19\ 171658.png);
+}
+
+.moto {
+    height: 200px;
+    background: rgba(0, 0, 0, .1);
+    margin-top: 602px;
+    color: rgb(4, 4, 4);
+    /* font-size: 50px;
+    font-family: 楷体; */
+    font: 80px 'kaiti';
+    line-height: 200px;
+    /*行高必须在字体的后面设置*/
+}
+
+/* 分隔符   主体内容样式 */
+.content {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: pink; */
+}
+
+/* 分隔符 卡片样式 */
+.card {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 40px 30px;
+    display: inline-block;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font: 5px Microsoft YaHei;
+    color: rgb(123, 122, 122);
+    text-align: left;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.card a:hover {
+    color: rgb(0, 195, 255);
+}
